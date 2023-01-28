@@ -1,7 +1,13 @@
 body{
-    background-color: #ffe3e3;
+    background-color:  #eec170  ;
+    margin: 25px;
+}
+
+article{
+    background-color:#f2d2b3; 
 }
 
 .datos_personales{
-    background-color: #FFFFFF;
+    background-color: #f2eadc;
+
 }
