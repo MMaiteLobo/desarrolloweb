@@ -9,6 +9,7 @@ article{
 
 .datos_personales{
     background-color: #f2eadc;
+    height: 100%;
 }
 
 .datos_personales div {
@@ -19,5 +20,17 @@ article{
     width: 250px;
     float: left;
     border-radius: 1000px;
+    border: 1px solid #999;
     margin: 20px 20px 20px 20px;
+}
+
+.datos_personales .title {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.datos_personales .profesion {
+    font-size: 20px;
+    margin: 0px;
 }
