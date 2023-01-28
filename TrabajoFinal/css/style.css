@@ -9,5 +9,15 @@ article{
 
 .datos_personales{
     background-color: #f2eadc;
+}
 
+.datos_personales div {
+    display: inline;
+}
+
+.datos_personales img {
+    width: 250px;
+    float: left;
+    border-radius: 1000px;
+    margin: 20px 20px 20px 20px;
 }
