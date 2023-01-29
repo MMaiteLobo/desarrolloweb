@@ -2,7 +2,7 @@
 
 body{
     background-color:   #FF8672 ;
-    font-family: Helvetica;
+    font-family:monospace;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 0px;
@@ -23,19 +23,28 @@ article{
     
 }
 
+.datos_personales div {
+    display: table;
+    width: 50%;
+    height: 100%;
 
+}
 
 .datos_personales img {
     width: 250px;
-    float: left;
+    text-align: center;   
     border-radius: 50%;
     border: 6px solid #FF8672;
     margin: 30px 30px 30px 30px;
 }
 
-.datos_personales div {
-    float:inline-start;
+.datos_personales .imagen {
+    height: 100%;
+    float: left;
+    text-align: center;
+    width: 50%;
 }
+
 .datos_personales .title {
     font-size: 30px;
     margin: 0px;
@@ -46,7 +55,6 @@ article{
     font-size: 20px;
     margin: 0px;
 }
-
 
 .cabecera {
     color: #f36249; text-transform: uppercase; font-weight: bold; text-decoration: underline;}
@@ -72,18 +80,20 @@ ul li {
 .tema_de_investigacion p {
     line-height: 25px ;
 }
-/*body{
-    background-color:  #eec170  ;
-    margin: 25px;
-}
 
-article{
-    background-color:#f2d2b3; 
-}
+@media (max-width: 772px) {
 
-.datos_personales{
-    background-color: #f2eadc;
+    .datos_personales .imagen {
+        width: 100%;
+    }
 
+    .datos_personales img {
+        width: 150px;
+    }
+
+    .datos_personales div {
+        width: 100%;
+    }
 }
 
 
