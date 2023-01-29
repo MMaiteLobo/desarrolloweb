@@ -46,40 +46,64 @@ article{
 }
 
 .datos_personales .title {
-    font-size: 30px;
+    font-size: 35px;
     margin: 0px;
     font-weight: bold;
 }
 
 .datos_personales .profesion {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0px;
+}
+.datos_personales .descripcion {
+    line-height: 20px;
 }
 
 .cabecera {
-    color: #f36249; text-transform: uppercase; font-weight: bold; text-decoration: underline;}
+    color: #f36249; text-transform: uppercase; font-weight: bold; text-decoration: underline;
+    font-size: 18px;
+}
 
 .cursiva {
     font-style: oblique; }
 
-section{
+section {
     padding-left: 25px;
     padding-right: 25px;
 }
 
-ul{
+ul {
     margin-left: 0;
     padding-left: 0;
 }
 ul li {
     list-style-type: square;
-    margin-left: 1em;
-    line-height: 25px;
+    margin-left: 3em;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+ul li::marker {
+    color: #f36249;
 }
 
 .tema_de_investigacion p {
-    line-height: 25px ;
+    line-height: 20px;
+    margin-left: 39px;
 }
+
+.cabecera i {
+    padding-right: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #363636;
+}
+  
+a:visited {
+    color: #f36249}
 
 @media (max-width: 772px) {
 
